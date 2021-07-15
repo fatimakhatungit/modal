@@ -61,11 +61,7 @@ section.slider-main__wrap {
     text-align: center;
     background: #333;
 }
-.content button {
-	padding: 50px 0px;
 
-    cursor: pointer;
-}
 .slider-active:hover {
     background: url("../img/01.jpg") no-repeat scroll center center / cover;
 }
@@ -73,18 +69,21 @@ section.slider-main__wrap {
 	background: #cb0f0f;
     opacity: 0.9;
 }
-.content button h3{
+
+.content button h3 {
 	color: #fff;
 	font-size: 30px;
-    opacity: 1;
+	opacity: 1;
+	cursor: url(../img/arrow-right-white.png) 36 36, auto;
+	padding: 50px 0px;
 }
 section.slider-main__wrap {
 	text-align: center;
 
 }
-.slider-active{
+/* .slider-active{
 	cursor: url(../img/arrow-right-white.png) 36 36, auto;
-}
+} */
 .close {
 	color: #333;
 	/* float: right; */
