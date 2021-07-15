@@ -76,10 +76,10 @@ section.slider-main__wrap {
 	opacity: 1;
 	cursor: url(../img/arrow-right-white.png) 36 36, auto;
 	padding: 50px 0px;
+	text-transform: capitalize;
 }
 section.slider-main__wrap {
 	text-align: center;
-
 }
 /* .slider-active{
 	cursor: url(../img/arrow-right-white.png) 36 36, auto;
