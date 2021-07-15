@@ -98,6 +98,14 @@ section.slider-main__wrap {
 	font-size: 30px;
     opacity: 1;
 }
+section.slider-main__wrap {
+	text-align: center;
+	cursor: url(../img/arrow-right-white.png) 36 36, auto;
+}
+
+.left-wrapper {
+	background-image: linear-gradient(to top, red,orange,yellow,green,#676796,indigo,#e56ce5);
+}
 /* 
 .slider-main__wrap .clickarea.left, [riot-tag="rac-slideshow"] .clickarea.left, [data-is="rac-slideshow"] .clickarea.left {
 	left: 0;
