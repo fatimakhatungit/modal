@@ -1,7 +1,7 @@
 :root{
     transition: 1.5s!important;
 }
-.modal {
+/* .modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -14,8 +14,40 @@
     transition: 1.5s!important;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
+} */
+.modal.modal_multi {
+	background: #fff;
 }
-
+.modal{
+    display: none;
+}
+.modal-content{
+    padding: 40px;
+    border: none;
+}
+.modal-content span {
+	text-align: left;
+	font-size: 27px;
+	font-weight: 600;
+    color: #cb0f0f;
+    margin-bottom: 10px;
+}
+.modal-content h3 {
+	text-align: left;
+	font-size: 60px;
+	font-weight: 700;
+    color: #cb0f0f;
+    margin-bottom: 100px;
+}
+.modal-content p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+	background: #cb0f0f;
+	padding: 50px 70px;
+	text-align: left;
+}
+/* 
 .modal-content {
     background-color: #fefefe;
     padding: 25px;
@@ -28,7 +60,7 @@
     left: 0;
     right: 0;
     transition: 1.5s!important;
-}
+} */
 
 .close {
     color: #aaaaaa;
@@ -58,7 +90,7 @@ section.slider-main__wrap {
     background: url("../img/01.jpg") no-repeat scroll center center / cover;
 }
 .content button:hover {
-	background: rgb(255, 158, 47);
+	background: #cb0f0f;
     opacity: 0.9;
 }
 .content button h3{
@@ -109,7 +141,7 @@ section.slider-main__wrap {
 }
 
 .myBtn_multi:nth-child(1) {
-    background-color: rgb(255, 158, 47);
+    background-color: #cb0f0f;
 }
 
 .myBtn_multi:nth-child(2) {
